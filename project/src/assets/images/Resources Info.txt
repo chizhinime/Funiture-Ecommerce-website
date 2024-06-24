@@ -1,0 +1,20 @@
+Fontsize: 
+Poppins
+
+
+Primary Color:  #B88E2F;
+Primary-light: #FFF3E3;
+
+Black: #000000;
+White: #ffffff;
+tertiary color background: #F9F1E7;
+
+
+
+PriceTag color background: #E97171;
+New Item background: #2EC1AC;
+
+Text color: background: #666666;
+
+
+

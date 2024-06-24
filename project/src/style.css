@@ -1,0 +1,495 @@
+* {
+  border: none;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  line-height: 1.2;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  max-width: 100%;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header .title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+}
+
+.header .sub_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  color: #666666;
+}
+
+.navbar{
+  box-shadow: 0rem 0rem 0.3rem 0rem #636363;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar-brand{
+  display: block;
+  margin: 0;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2.1rem;
+  font-weight: 700;
+  width: 10rem;
+  padding-left: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: end;
+  width: 55%;
+  padding-left: 14rem;
+  font-weight: 500;
+}
+
+.navbar .navbar-nav li a {
+  font-weight: 600;
+}
+
+.navbar .navbar-collapse {
+  width: 50%;
+}
+
+.top-icon {
+  width: 25%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  font-size: 1.4rem;
+}
+
+.container_hero {
+  height: 100vh;
+  background-image: url("../images/scandinavian-interior-mockup-wall-decal-background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container_hero .row {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.container_hero .hero_info {
+  width: 40.1875rem;
+  height: 443px;
+  top: 253px;
+  left: 739px;
+  border-radius: 10px 0px 0px 0px;
+  background: #fff3e3;
+  padding: 3rem;
+  line-height: 2rem;
+}
+
+.hero_info h1 {
+  font-weight: 900;
+  color: #b88e2f;
+  width: 22rem;
+  margin: 0;
+  margin: 1rem 0;
+}
+.hero_info p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  width: 34rem;
+}
+.hero_info p:first-child {
+  font-size: 1rem;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.btn_hero {
+  background-color: #b88e2f;
+  border-radius: 0;
+  color: #ffffff;
+}
+
+.container_gallery {
+  text-align: center;
+  padding: 4rem;
+  padding-bottom: 0;
+  line-height: 3rem;
+}
+
+.container_gallery .label {
+  margin-top: 2rem;
+  font-size: 1, 5rem;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.container_products {
+  padding: 4rem 6rem;
+  line-height: 3rem;
+}
+
+.container_products .card {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.container_products .card .card_hover {
+  position: absolute;
+  background-color: #0000008a;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  padding: 2rem 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
+}
+
+.angle_tag {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+  padding-top: 0.9rem;
+}
+
+.percentage_tag {
+  background: #e97171;
+}
+
+.new_tag {
+  background: #2ec1ac;
+}
+
+.hover_btn {
+  background-color: #ffffff;
+  width: 14rem;
+  border-radius: 0;
+  color: #e89f71;
+  font-weight: 600;
+}
+
+.hover_btn:hover {
+  border: 1px solid #e89f71;
+  color: #ffffff;
+}
+
+.show_more_btn {
+  border: 1px solid #e89f71;
+  width: 14rem;
+  border-radius: 0;
+  color: #e89f71;
+  margin: auto;
+  font-weight: 600;
+}
+
+.show_more_btn:hover {
+  background-color: #e89f71;
+  color: #ffffff;
+}
+
+.container_products .card .card_hover span {
+  color: #ffffff;
+  margin: 0.5rem;
+}
+.container_products .card .card_hover .icon {
+  color: #ffffff !important;
+  font-size: 1.25rem;
+}
+
+.container_products .card:hover > .card_hover {
+  display: flex;
+}
+
+.container_products .card-body {
+  width: 100%;
+  background: #f4f5f7;
+}
+
+.container_products .card-title {
+  font-weight: 700;
+}
+
+.container_slider {
+  padding: 4rem;
+  height: 100vh;
+  background: #fcf8f3;
+}
+
+.container_slider .slider_info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.container_slider .slider_info .title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #3a3a3a;
+  line-height: 3rem;
+}
+.container_slider .slider_info p {
+  font-size: 1rem;
+  color: #616161;
+}
+.container_slider .slider_info button {
+  background-color: #b88e2f;
+  border-radius: 0;
+  padding: 1rem;
+  width: 40%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+.container_slider .slideswrap {
+  position: relative;
+}
+
+.container_slider .show-image {
+  display: flex;
+  align-items: end;
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  background-image: url(http://localhost:5173/src/assets/images/rectangle1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container_slider .show-image div {
+  width: 217px;
+  height: 130px;
+  background: #ffffffb8;
+  margin: 0;
+  padding: 2rem;
+}
+.container_slider .show-image div h4 {
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.container_slider .show-image button {
+  width: 48px;
+  height: 48px;
+  background: #b88e2f;
+  border-radius: 0;
+}
+.container_slider .slides div {
+  height: 100%;
+  width: 100%;
+  background-color: #3a3a3a;
+}
+.container_slider .slide {
+  width: 372px;
+  height: 486px;
+  flex-shrink : 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.container_slider .controls {
+  display: flex;
+  width: 390px;
+  background-color: #000000 !important;
+  position: absolute;
+  top: 15rem;
+  z-index: 7;
+}
+
+.container_slider .controls .arrow {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: #e4e4e457;
+  text-align: center;
+  padding: 0.4rem;
+  box-shadow: 0 0 0.3rem 0rem #5a5a5a69;
+  color: #b88e2f;
+  position: absolute;
+}
+
+.container_slider .controls .left {
+  left: -1rem;
+}
+
+.container_slider .controls .right {
+  right: 0rem;
+}
+
+.container_slider .slideIndicators {
+  margin-top: 1rem;
+}
+
+.container_slider .slideIndicator {
+  margin-right: 1rem;
+}
+.container_slider .slideIndicator.active {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: #e4e4e457;
+  text-align: center;
+  padding: 0.4rem;
+  border: 0.5px solid #b88e2f;
+  box-shadow: 0 0 0.3rem 0rem #5a5a5a69;
+  color: #b88e2f;
+}
+
+.container_furnitures {
+  padding: 2rem 0;
+}
+
+.container_furnitures .wallpaper {
+  background-image: url("../images/Images.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container_footer {
+  border-top: 1px solid #0000002b;
+  font-family: "Poppins", sans-serif;
+}
+
+.container_footer a h5 {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2.25rem;
+}
+
+.container_footer h5 {
+  color: #9f9f9f;
+}
+
+.container_footer ul li a {
+  line-height: 3rem;
+  color: #000000;
+  font-weight: bold;
+}
+
+.container_footer .addr {
+  color: #9f9f9f;
+}
+
+.container_footer .newsletter {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  color: #9f9f9f;
+}
+.container_footer .newsletter:focus {
+  outline: none;
+}
+.container_footer .newsletter-btn {
+  width: 10rem;
+  background-color: transparent;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+.container_services {
+	background: #FAF3EA;
+	padding: 4rem 2rem;
+	text-align: center;
+
+}
+
+.container_services .service {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 0;
+}
+.container_services .service_info {
+	margin: 0;
+}
+
+.btn-pagination button {
+	background: #F9F1E7;
+
+}
+.btn-pagination button:hover {
+	background: #B88E2F;
+
+}
+.btn-pagination button .active{
+	background: #B88E2F !important;
+
+}
+
+@media(max-width: 1200px){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media(max-width: 991px){
+}
+
+@media(max-width: 768px){
+
+}
+@media(max-width: 617px){
+}
+@media(max-width: 450px){
+    html{
+        font-size: 70%;
+    }
+}
